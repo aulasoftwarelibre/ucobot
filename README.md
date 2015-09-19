@@ -1,10 +1,10 @@
-#Bot de alertas
+# Bot de alertas
 
 Esta aplicación permite crear un bot para alertas en Telegram
 
-##Instalación
+## Instalación
 
-###Dependencias
+### Dependencias
 
 El desarrollo del bot se hará con python3. Así que lo primero es asegurarnos de que lo tenemos instalado:
 
@@ -18,13 +18,13 @@ Se pueden instalar las dependencias en un subdirectorio o en el sistema. Se reco
 bash$ pip3 install -t dist -r requirements.txt
 ```
 
-###Alta de un bot
+### Alta de un bot
 
 Para desarrollar, cada miembro puede crear su propio bot para desarrollo. Para ello [seguir el tutorial oficial](https://core.telegram.org/bots#botfather)
 
 Es importante anotar el token de autorización de nuestro bot. Por ejemplo, consideremos que nuestro bot tiene el token ```110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw```.
 
-###Configuración
+### Configuración
 
 Antes de iniciar el bot, tenemos que configurar el token. Para ello copiaremos el fichero _config/parameters.yml.dist_ en _config/parameters.yml_ añadiendo el token que hemos obtenido en el paso anterior. El fichero debe quedar así (pero con nuestro token):
 
@@ -33,15 +33,15 @@ telegram:
     token: 110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw
 ```
 
-###Inicio del bot
+### Inicio del bot
 
 Iniciamos el script de python _ucobot.py_.
 
-###Demo
+### Demo
 
 Podemos hablarle a nuestro bot que responderá, por ahora, a las órdenes _/start_ y _/help_.
 
-##Desarrollo
+## Desarrollo
 
 Nos basaremos en dos APIs:
 
