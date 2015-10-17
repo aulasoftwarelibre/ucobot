@@ -9,7 +9,7 @@ Esta aplicación permite crear un bot para alertas en Telegram
 El desarrollo del bot se hará con python3. Así que lo primero es asegurarnos de que lo tenemos instalado:
 
 ```bash
-bash$ sudo apt-get install -d python3 python3-dev
+bash$ sudo apt-get install python3 python3-setuptools python3-dev
 bash$ sudo easy_install-3.4 pip
 ```
 
