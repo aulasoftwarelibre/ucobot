@@ -6,9 +6,9 @@ class User(db.Entity):
     Representa a un usuario de Telegram.
     """
     id = PrimaryKey(int, auto=False)
-    first_name = Optional(str)
-    last_name = Optional(str)
-    username = Optional(str)
+    first_name = Optional(str, nullable=True)
+    last_name = Optional(str, nullable=True)
+    username = Optional(str, nullable=True)
 
 @db_session
 def search_user(user):
